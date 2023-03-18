@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.ibb.co/GP3dyzw/IMG-6199.jpg">
+    <title>Frontend-кейс</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="header__title">
+                <a class="header__link" target="_blank" href="https://t.me/frontend_case">Frontend кейс</a>  
+            </h1>
+        </header>
+        <main class="main">
+            <div class="warning hidden">
+                В тесте нет вопросов, <br> заполните и возвращайтесь!
+            </div>
+
+            <div class="quiz hidden">
+                <h2 class="quiz__header">Тест на skills верстальщика</h2>
+                <div class="quiz__progress">
+                    <div class="quiz__progress-inner"></div>
+                </div>
+                <div class="quiz__content">
+                    <h3 class="quiz__title"></h3>
+                    <ul class="quiz__list"></ul>
+                </div>
+                <div class="quiz__footer">
+                    <div class="quiz__total"></div>
+                    <button class="quiz__next-btn">Следующий</button>
+                </div>
+            </div>
+
+            <div class="result hidden">
+                <div class="result__img">
+                    <img src="./img/the-end.png" alt="The end">
+                </div>
+                <div class="result__title">Вы завершили тест!</div>
+                <div class="result__text"></div>
+                <div class="result__btn">
+                    <a href="/" class="result__restart">Начать заново</a>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            Подключайся к нам в телеграмм <a class="footer__link" target="_blank" href="https://t.me/frontend_case">@frontend_case</a>.
+            Помощь новичкам!
+            Будем развиваться во фронтенд разработке вместе :)
+        </footer>
+    </div>
+    <script src="./js/questions.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
